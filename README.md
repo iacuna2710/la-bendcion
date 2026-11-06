@@ -67,8 +67,8 @@ DB_PASSWORD=
 MAIL_MAILER=smtp
 MAIL_HOST=sandbox.smtp.mailtrap.io
 MAIL_PORT=2525
-MAIL_USERNAME=df49bcd264a3bd
-MAIL_PASSWORD=653cc3e4fba699
+MAIL_USERNAME=tu_usuario_mailtrap
+MAIL_PASSWORD=tu_contraseña_mailtrap
 MAIL_FROM_ADDRESS="noreply@labendicion.cr"
 MAIL_FROM_NAME="La Bendición"
 ```
@@ -114,15 +114,13 @@ La base de datos `la_bendicion` contiene 20 tablas con sus relaciones y 5 proced
 
 ## 👥 Usuarios del sistema
 
-| Usuario | Correo | Contraseña | Rol |
-|---|---|---|---|
-| Administrador | admin@labendicion.cr | Admin1234! | admin |
-| Juan Perez | juan.perez22@outlook.com | Juan2026! | cliente |
-| Daniel Valverde | daniel.valverde@labendicion.cr | Daniel2026! | trabajador |
-| Fabricio Quesada | fabricio.quesada@labendicion.cr | Fabricio2026! | trabajador |
-| Pablo Zuniga | pablo.zuniga@labendicion.cr | Pablo2026! | trabajador |
-| Isaac Acuna | isaac.acuna@labendicion.cr | Isaac2026! | trabajador |
-| Marcelo Quevedo | marcelo.quevedo@labendicion.cr | Marcelo2026! | trabajador |
+El script `database/la_bendicion.sql` crea usuarios de prueba para cada rol:
+
+- `admin`
+- `trabajador`
+- `cliente`
+
+Las credenciales de prueba no se publican en este README; pídalas al equipo o cree un usuario nuevo desde el registro.
 
 ---
 
